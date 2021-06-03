@@ -2,3 +2,12 @@
   width: 500px !important;
   max-width: 500px !important;
 }
+
+.card-title.h5 a{
+  font-size: 14px;
+}
+img.card-img-top.img-fluid {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}

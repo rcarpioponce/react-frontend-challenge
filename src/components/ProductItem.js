@@ -6,7 +6,7 @@ import { AddCartButton } from './AddCartButton'
 export const ProductItem = ({ id, title, price, image}) => {
     return (
         <Col lg="3" md="3" xs="12" className='mb-4 h-100'>
-            <Card>
+            <Card style={{ height: '370px' }}>
                 <Card.Img className='img-fluid' variant="top" src={image} alt={title} />
                 <Card.Body>
                     <Card.Title>
